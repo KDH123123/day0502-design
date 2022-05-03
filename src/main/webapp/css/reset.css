@@ -28,8 +28,15 @@ a{
 	display: flex;
 } /* 부모태그를 이용해서 자식요소를 배치하는 css */
 
+.row{
+	flex-direction: row;
+}
+
+.colum{
+	flex-direction: column;
+}
 .center {
-	justify-content: space-center;
+	justify-content: center;
 }
 
 .between{

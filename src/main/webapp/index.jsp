@@ -13,8 +13,13 @@
 	<jsp:include page="/WEB-INF/common/header.jsp" /><!--jsp로 저장된 데이터 가져오기-->
 	<main>
 		<h1>메인컨텐츠</h1>
-		<div>
-			<p>인덱스</p>
+		<div class="wrap">
+		<section id="visual">
+			<h1>비주얼영역</h1>
+			<div class="wrap">
+				<img src="image/img_1.jpg">
+			</div>
+		</section>
 		</div>
 	</main>
 	<jsp:include page="/WEB-INF/common/footer.jsp" /><!--jsp로 저장된 데이터 가져오기-->
