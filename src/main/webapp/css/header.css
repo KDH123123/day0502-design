@@ -78,6 +78,11 @@ header>.wrap {
 	height: 40px;
 }
 
+/* 첫번째 li태그는 제외하고 나머지에다가 마우스올리면 밑줄 */
+#hb>.wrap>ul>li:not(:first-child):hover{
+	border-bottom: 5px solid #003900;
+}
+
 #hb>.wrap ul>li a {
 	/* display: block; */
 	height: 40px;
